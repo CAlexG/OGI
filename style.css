@@ -709,6 +709,8 @@ button:hover{
 	height: auto;
 	text-align: center;
 	overflow: hidden;
+	border-radius: 15px;
+	position: relative;
 }
 
 .body .section-news-rows .global-news .global-news-box img{
@@ -732,6 +734,16 @@ button:hover{
 	position: relative;
 	z-index: 99;
 	margin-bottom: 40px;
+}
+
+.body .section-news-rows .global-news .global-news-box .date-news{
+	background: var(--color-secundary);
+	color: var(--color-primary);
+	padding: 5px 15px;
+	border-radius: 8px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
 }
 
 .body .section-news-rows .search-news{
