@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OGI</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+<link rel="icon" type="image/png" href="fav.png">
+
+
+<script src="owlcarousel/jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.js"></script>
+
+
+</head>
+<body>
+
+	<div class="top-menu">
+		<div class="icons-top-menu">
+			<a href="#"><i class="fa fa-facebook-f"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<i class="fa fa-search" style="z-index: 999;"></i>
+			<input type="text" name="search" placeholder="Search..." style="padding: 10px 25px; margin-left: -20px; background: #f9f9f9; font-family: var(--font-family);">
+		</div>
+		<div class="account">
+			<button>Become a Member</button>
+			<a href="#"><i class="fa fa-user"></i></a>
+			<a href="#">Login</a>
+		</div>
+	</div>
+
+	<div class="menu">
+		<div class="logo-menu">
+			<img src="images/OGI_logo.png">
+		</div>
+		<div class="nav-menu">
+			<ul>
+				<a href="#" class="active"><li>Home</li></a>
+				<a href="#"><li>About ÖGI</li></a>
+				<a href="#"><li>Patients</li></a>
+				<a href="#"><li>Members</li></a>
+				<a href="#"><li>News</li></a>
+				<a href="#"><li>Contact</li></a>
+			</ul>
+		</div>
+	</div>
+
+	<div class="body">
+		<div class="banner">
+			<div class="owl-carousel owl-theme">
+    			<div class="item">
+    				<img src="images/banner_image1.jpg">
+    				<div class="banner-text">
+	    				<h1>ABOUT ÖGI</h1>
+	    				<label>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    				tempor incididunt ut labore et dolore magna aliqua.</label><br>
+	    				<button>View More</button>
+    				</div>
+    			</div>
+    			<div class="item">
+    				<img src="images/banner_image2.jpg">
+    				<div class="banner-text">
+	    				<h1>ABOUT ÖGI</h1>
+	    				<label>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    				tempor incididunt ut labore et dolore magna aliqua.</label><br>
+	    				<button>View More</button>
+    				</div>
+    			</div>
+			</div>
+		</div>
+		<div class="back-primary">
+			<div class="section section-about">
+				<h1>ABOUT ÖGI</h1>
+				<div class="about">
+					<div class="text-about">
+						<p style="text-align: left;"><b>Cooperate</b><br>
+						The ÖGI cooperates with scientific associations, universities, working groups and societies in Austria and abroad. Furthermore with the legal professional associations and the university clinics responsible for the subject as well as other institutions involved in continuing education.
+
+						<br><br><b>Research</b><br>
+						One of the concerns of the ÖGI is scientific work on the subject of implantology. Scientific work is encouraged and supported in order to be permanently at the cutting edge of science. Scientific journals are also supported for this purpose.</p>
+						<button style="margin-top: 50px; text-align: center;">View More</button>
+					</div>
+					<div class="img-about">
+						<img src="images/csm_shutterstock_383655298_d63508841d.jpg">
+					</div>
+				</div>
+			</div>
+
+			<div class="back-secundary">
+				<div class="section section-events">
+					<h1>EVENTS</h1>
+					<div class="events">
+						<div class="events-box">
+							<img src="images/events-01.jpg">
+							<div class="events-text">
+								<label style="color: var(--color-primary); font-weight: 600;">ÖGI Regionalveranstaltung:</label><br>
+								<label style="color: var(--font-color-primary);">Weichgewebechirurgie-Nahttechnik für Fortgeschrittene</label><br><br>
+								<button>Read More</button>
+							</div>
+							<div class="events-date">
+								<label class="number">24</label><br> 
+								<label class="number">25</label><br>
+								<label>June</label><br>
+								<label>2022</label>
+							</div>
+						</div>
+						<div class="events-box">
+							<img src="images/events-02.jpg">
+							<div class="events-text">
+								<label style="color: var(--color-primary); font-weight: 600;">ÖGI Regionalveranstaltung:</label><br>
+								<label style="color: var(--font-color-primary);">Weichgewebechirurgie-Nahttechnik für Fortgeschrittene</label><br><br>
+								<button>Read More</button>
+							</div>
+							<div class="events-date">
+								<label class="number">24</label><br> 
+								<label class="number">25</label><br>
+								<label>June</label><br>
+								<label>2022</label>
+							</div>
+						</div>
+						<div class="events-box">
+							<img src="images/events-03.jpg">
+							<div class="events-text">
+								<label style="color: var(--color-primary); font-weight: 600;">ÖGI Regionalveranstaltung:</label><br>
+								<label style="color: var(--font-color-primary);">Weichgewebechirurgie-Nahttechnik für Fortgeschrittene</label><br><br>
+								<button>Read More</button>
+							</div>
+							<div class="events-date">
+								<label class="number">24</label><br> 
+								<label class="number">25</label><br>
+								<label>June</label><br>
+								<label>2022</label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="back-primary">
+				<div class="section section-news">
+					<h1>NEWS</h1>
+					<div class="news" style="display: flex;">
+						<div class="news-box" style="width: 39.4%">
+							<img src="images/news-01.jpg">
+							<a class="tag-news">News</a>
+							<div class="news-text">
+								<label><b>Cooperate</b>><br>
+										The ÖGI cooperates with scientific associations, universities, working groups and societies in Austria and abroad.</label>									
+							</div>
+						</div>
+						<div style="display: block;width: 59.4%">
+							<div class="news-box" style="width: 100%; margin-bottom: 15px;">
+								<img src="images/news-02.jpg" style="height: 375px">
+								<label class="tag-news">News</label>
+								<div class="news-text">
+									<label><b>Cooperate</b>><br>
+										The ÖGI cooperates with scientific associations, universities, working groups and societies in Austria and abroad.</label>
+								</div>
+							</div>
+							<div style="display: flex; width: 100%; justify-content:space-between;">
+								<div class="news-box" style="width: 49%;">
+									<img src="images/news-03.jpg" style="height: 375px">
+									<label class="tag-news">News</label>
+									<div class="news-text">
+										<label><b>Cooperate</b>><br>
+										The ÖGI cooperates with scientific associations, universities, working groups and societies in Austria and abroad.</label>
+									</div>
+								</div>
+								<div class="news-box" style="width: 49%;">
+									<img src="images/news-04.jpg" style="height: 375px">
+									<label class="tag-news">News</label>
+									<div class="news-text">
+										<label><b>Cooperate</b>><br>
+										The ÖGI cooperates with scientific associations, universities, working groups and societies in Austria and abroad.</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button style="margin-top: 50px; text-align: center;">View More</button>
+				</div>
+			</div>
+
+			<div class="back-secundary">
+				<div class="section section-contact">
+					<h1>CONTACT</h1>
+					<div class="contact">
+						<form>
+							<input type="text" name="" placeholder="Name..." style="margin-right: 8px">
+							<input type="text" name="" placeholder="Last Name..." style="margin-left: 8px">
+							<input type="text" name="" placeholder="E-mail..." style="margin-right: 8px">
+							<input type="text" name="" placeholder="Phone..." style="margin-left: 8px">
+							<textarea placeholder="Message..."></textarea>
+							<button style="margin-top: 50px; text-align: center;">Send</button>
+						</form>
+						<div class="contact-box">
+
+							<h2>Quick Contacts</h2>
+							<div class="contact-icon">
+								<i class="fa fa-phone"></i>
+								<h3>Phone</h3>
+								<label>0000 - 0000</label>
+							</div>
+							<div class="contact-icon">
+								<i class="fa fa-map-marker"></i>
+								<h3>Location</h3>
+								<label>Location</label>
+							</div>
+							<div class="contact-icon">
+								<i class="fa fa-envelope"></i>
+								<h3>E-mail</h3>
+								<label>lorem@gmail.com</label>
+							</div>
+							<div class="contact-icon">
+								<i class="fa fa-clock-o"></i>
+								<h3>Time</h3>
+								<label>Mon - Fri: 8:00 am - 7:30 pm </label>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="box-map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2750980.743537911!2d11.10318354111493!3d47.67461895134058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d079b259d2a7f%3A0x1012d47bdde4c1af!2sAustria!5e0!3m2!1ses!2sgt!4v1656514108570!5m2!1ses!2sgt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+			</div>
+		</div>
+	</div>
+<br><br><br><br>
+	<div class="footer">
+		<div class="top-footer">
+			<div class="log">
+				<img src="images/OGI_logo_b.png">
+				<div class="social-icons">
+					<a href="#"><i class="fa fa-facebook-f"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+				</div>
+			</div>
+			<div class="contact">
+				<h2>Contact Us</h2>
+				<ul>
+					<li><b>Phone:</b> 0000 - 0000</li>
+					<li><b>E-mail:</b> lorem@gmail.com</li>
+					<li><b>Location:</b> Location</li>
+					<li><b>Time:</b> Mon - Fri: 8:00 am - 7:30 pm</li>
+				</ul>
+			</div>
+			<div class="menu-footer">
+				<h2>Menu</h2>
+				<ul>
+					<li>Contact</li>
+					<li>Printing</li>
+					<li>Privacy Policy</li>
+				</ul>
+			</div>
+		</div>
+		<div class="rights">
+			<label>© 2022 The Austrian Society of Implantology</label>
+		</div>
+	</div>
+
+</body>
+<script>
+	$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    autoplay:true,
+    autoplayTimeout:6000,
+    autoplayHoverPause:true,
+    nav: true,
+    dots: false,
+
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
+</script>
+</html>
