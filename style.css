@@ -106,11 +106,28 @@ button{
 	border-radius: var(--border-radius-button);
 }
 
+.button{
+	background: var(--color-primary);
+	color: var(--color-secundary);
+	font-family: var(--font-family);
+	font-size: var(--font-size-text);
+	padding: 15px 50px;
+	border-radius: var(--border-radius-button);
+}
+
 button:hover{
 	background: var(--color-secundary);
 	color: var(--color-primary);
 	transition: all 500ms ease;
 	cursor: pointer;
+}
+
+.button:hover{
+	background: var(--color-secundary);
+	color: var(--color-primary);
+	transition: all 500ms ease;
+	cursor: pointer;
+	text-decoration: none;
 }
 
 .top-menu{
